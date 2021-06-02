@@ -25,3 +25,12 @@
     - Take input from the user;
     - If a user wants to use the feature (Yes), choose a name from the dictionary keys at random and print the following: {Name} is the lucky one!;
     - If the user enters anything else, print No one is going to be lucky.
+
+## Stage 4/4: Party is over
+
+    - In case of an invalid number of people, "No one is joining for the party" is expected as an output;
+    - Otherwise, if the user choice is Yes, re-split the bill according to the feature;
+    - Round up the split value to two decimal places;
+    - Update the dictionary with new split values and 0 for the lucky person;
+    - Print the updated dictionary;
+    - If the user entered anything else instead of Yes, print the original dictionary.
