@@ -18,22 +18,24 @@
 # print(f'{val * 15} g of coffee beans')
 
 # Stage 3/6: Estimate the number of servings
-import math
-print('Write how many ml of water the coffee machine has:')
-val_water = int(input()) / 200
-print('Write how many ml of milk the coffee machine has:')
-val_milk = int(input()) / 50
-print('Write how many grams of coffee beans the coffee machine has:')
-val_coffee = int(input()) / 15
-print('Write how many cups of coffee you will need:')
-count_cup = int(input())
+# import math
+# print('Write how many ml of water the coffee machine has:')
+# val_water = int(input()) / 200
+# print('Write how many ml of milk the coffee machine has:')
+# val_milk = int(input()) / 50
+# print('Write how many grams of coffee beans the coffee machine has:')
+# val_coffee = int(input()) / 15
+# print('Write how many cups of coffee you will need:')
+# count_cup = int(input())
+#
+# result_cup = math.floor(min([val_water, val_milk, val_coffee]))
+# # print(result_cup)
+# if result_cup == count_cup:
+#     print('Yes, I can make that amount of coffee')
+# elif result_cup < count_cup:
+#     print(f'No, I can make only {round(result_cup)} cups of coffee')
+# elif result_cup > count_cup:
+#     dif = math.floor(result_cup) - count_cup
+#     print(f'Yes, I can make that amount of coffee (and even {dif} more than that)')
 
-result_cup = math.floor(min([val_water, val_milk, val_coffee]))
-# print(result_cup)
-if result_cup == count_cup:
-    print('Yes, I can make that amount of coffee')
-elif result_cup < count_cup:
-    print(f'No, I can make only {round(result_cup)} cups of coffee')
-elif result_cup > count_cup:
-    dif = math.floor(result_cup) - count_cup
-    print(f'Yes, I can make that amount of coffee (and even {dif} more than that)')
+# Stage 4/6: Buy, fill, take!
